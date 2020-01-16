@@ -12,3 +12,5 @@ RUN apk update \
     && apk del \
         git \
     && rm -rf /var/cache/apk/*;
+
+ENTRYPOINT ["/bin/bash"]
