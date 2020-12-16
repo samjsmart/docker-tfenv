@@ -16,4 +16,5 @@ RUN apk update \
         git \
     && rm -rf /var/cache/apk/*
 
-ENTRYPOINT ["/bin/bash"]
+SHELL ["/bin/bash", "-c"]
+ENTRYPOINT ["/bin/bash", "-c"]
